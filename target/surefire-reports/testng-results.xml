@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41393" started-at="2020-07-05T19:51:08 IST" finished-at="2020-07-05T19:51:49 IST">
+    <groups>
+    </groups>
+    <test name="Practice Page" duration-ms="41393" started-at="2020-07-05T19:51:08 IST" finished-at="2020-07-05T19:51:49 IST">
+      <class name="framework.PracticePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:framework.PracticePageTest@f2ff811]" name="initialize" is-config="true" duration-ms="6193" started-at="2020-07-05T19:51:08 IST" finished-at="2020-07-05T19:51:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyPracticePageNavigation()[pri:0, instance:framework.PracticePageTest@f2ff811]" name="verifyPracticePageNavigation" duration-ms="30988" started-at="2020-07-05T19:51:14 IST" finished-at="2020-07-05T19:51:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPracticePageNavigation -->
+        <test-method status="PASS" signature="verifySelectBoxClick()[pri:0, instance:framework.PracticePageTest@f2ff811]" name="verifySelectBoxClick" duration-ms="411" started-at="2020-07-05T19:51:45 IST" finished-at="2020-07-05T19:51:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectBoxClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.PracticePageTest@f2ff811]" name="tearDown" is-config="true" duration-ms="3764" started-at="2020-07-05T19:51:45 IST" finished-at="2020-07-05T19:51:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.PracticePageTest -->
+    </test> <!-- Practice Page -->
+    <test name="Home Page" duration-ms="35894" started-at="2020-07-05T19:51:08 IST" finished-at="2020-07-05T19:51:43 IST">
+      <class name="framework.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:framework.HomePageTest@5f16132a]" name="initialize" is-config="true" duration-ms="6193" started-at="2020-07-05T19:51:08 IST" finished-at="2020-07-05T19:51:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:framework.HomePageTest@5f16132a]" name="homePageNavigation" duration-ms="20642" started-at="2020-07-05T19:51:14 IST" data-provider="getData" finished-at="2020-07-05T19:51:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:framework.HomePageTest@5f16132a]" name="homePageNavigation" duration-ms="5522" started-at="2020-07-05T19:51:34 IST" data-provider="getData" finished-at="2020-07-05T19:51:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.HomePageTest@5f16132a]" name="tearDown" is-config="true" duration-ms="3499" started-at="2020-07-05T19:51:40 IST" finished-at="2020-07-05T19:51:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.HomePageTest -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>

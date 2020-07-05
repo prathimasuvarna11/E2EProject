@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="framework.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Verifying title(failed)" parallel="tests">
+    <classes>
+      <class name="framework.VerifyTitleTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- framework.VerifyTitleTest -->
+    </classes>
+  </test> <!-- Verifying title(failed) -->
+  <test thread-count="5" verbose="0" name="Home Page(failed)" parallel="tests">
+    <classes>
+      <class name="framework.HomePageTest">
+        <methods>
+          <include name="homePageNavigation" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- framework.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+  <test thread-count="5" verbose="0" name="Practice Page(failed)" parallel="tests">
+    <classes>
+      <class name="framework.PracticePageTest">
+        <methods>
+          <include name="verifySelectBoxClick"/>
+          <include name="verifyPracticePageNavigation"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- framework.PracticePageTest -->
+    </classes>
+  </test> <!-- Practice Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35731" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:08 IST">
+    <groups>
+    </groups>
+    <test name="Verifying title" duration-ms="29411" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:02 IST">
+      <class name="framework.VerifyTitleTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:framework.VerifyTitleTest@55b53d44]" name="initialize" is-config="true" duration-ms="28529" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="verifyTitle()[pri:0, instance:framework.VerifyTitleTest@55b53d44]" name="verifyTitle" duration-ms="61" started-at="2020-07-04T21:33:01 IST" finished-at="2020-07-04T21:33:01 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...> but was:<...123>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at framework.VerifyTitleTest.verifyTitle(VerifyTitleTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.VerifyTitleTest@55b53d44]" name="tearDown" is-config="true" duration-ms="240" started-at="2020-07-04T21:33:01 IST" finished-at="2020-07-04T21:33:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.VerifyTitleTest -->
+    </test> <!-- Verifying title -->
+    <test name="Home Page" duration-ms="33827" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:06 IST">
+      <class name="framework.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:framework.HomePageTest@1ba9117e]" name="initialize" is-config="true" duration-ms="7921" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:32:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:framework.HomePageTest@1ba9117e]" name="homePageNavigation" duration-ms="22213" started-at="2020-07-04T21:32:40 IST" data-provider="getData" finished-at="2020-07-04T21:33:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:framework.HomePageTest@1ba9117e]" name="homePageNavigation" duration-ms="3477" started-at="2020-07-04T21:33:03 IST" data-provider="getData" finished-at="2020-07-04T21:33:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.HomePageTest@1ba9117e]" name="tearDown" is-config="true" duration-ms="157" started-at="2020-07-04T21:33:06 IST" finished-at="2020-07-04T21:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.HomePageTest -->
+    </test> <!-- Home Page -->
+    <test name="Practice Page" duration-ms="33928" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:06 IST">
+      <class name="framework.PracticePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:framework.PracticePageTest@2e55dd0c]" name="initialize" is-config="true" duration-ms="8298" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:32:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyPracticePageNavigation()[pri:0, instance:framework.PracticePageTest@2e55dd0c]" name="verifyPracticePageNavigation" duration-ms="25082" started-at="2020-07-04T21:32:41 IST" finished-at="2020-07-04T21:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPracticePageNavigation -->
+        <test-method status="PASS" signature="verifySelectBoxClick()[pri:0, instance:framework.PracticePageTest@2e55dd0c]" name="verifySelectBoxClick" duration-ms="477" started-at="2020-07-04T21:33:06 IST" finished-at="2020-07-04T21:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectBoxClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.PracticePageTest@2e55dd0c]" name="tearDown" is-config="true" duration-ms="53" started-at="2020-07-04T21:33:06 IST" finished-at="2020-07-04T21:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.PracticePageTest -->
+    </test> <!-- Practice Page -->
+    <test name="Verifying Navigation Bar" duration-ms="35731" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:08 IST">
+      <class name="framework.VerifyNavigationBarTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:framework.VerifyNavigationBarTest@79da8dc5]" name="initialize" is-config="true" duration-ms="30880" started-at="2020-07-04T21:32:32 IST" finished-at="2020-07-04T21:33:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:framework.VerifyNavigationBarTest@79da8dc5]" name="verifyHeader" duration-ms="97" started-at="2020-07-04T21:33:03 IST" finished-at="2020-07-04T21:33:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:framework.VerifyNavigationBarTest@79da8dc5]" name="tearDown" is-config="true" duration-ms="4741" started-at="2020-07-04T21:33:03 IST" finished-at="2020-07-04T21:33:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.VerifyNavigationBarTest -->
+    </test> <!-- Verifying Navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>

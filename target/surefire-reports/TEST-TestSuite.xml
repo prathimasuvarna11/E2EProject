@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.596" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\NI7587\Desktop\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\NI7587\eclipse-workspace\E2EProject\target\test-classes;C:\Users\NI7587\eclipse-workspace\E2EProject\target\classes;C:\Users\NI7587\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NI7587\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NI7587\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NI7587\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NI7587\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NI7587\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NI7587\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NI7587\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NI7587\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NI7587\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NI7587\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\NI7587\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\NI7587\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\NI7587\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\NI7587\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\NI7587\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\NI7587\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\NI7587\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\NI7587\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\NI7587\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\NI7587\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\NI7587\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\NI7587\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\NI7587\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\NI7587\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NI7587\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\NI7587\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\NI7587\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\NI7587\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\NI7587\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\NI7587\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\NI7587\AppData\Local\Temp\surefire159982102283318892\surefirebooter8247231583026569007.jar C:\Users\NI7587\AppData\Local\Temp\surefire159982102283318892 2020-07-05T19-51-04_328-jvmRun1 surefire2775005740998733059tmp surefire_04200891911515374253tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\NI7587\eclipse-workspace\E2EProject\target\test-classes;C:\Users\NI7587\eclipse-workspace\E2EProject\target\classes;C:\Users\NI7587\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NI7587\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NI7587\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NI7587\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NI7587\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NI7587\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NI7587\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NI7587\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NI7587\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NI7587\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NI7587\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NI7587\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\NI7587\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\NI7587\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\NI7587\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\NI7587\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\NI7587\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\NI7587\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\NI7587\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\NI7587\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\NI7587\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\NI7587\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\NI7587\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\NI7587\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\NI7587\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\NI7587\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NI7587\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\NI7587\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\NI7587\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\NI7587\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\NI7587\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\NI7587\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NI7587"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\NI7587\eclipse-workspace\E2EProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\NI7587\AppData\Local\Temp\surefire159982102283318892\surefirebooter8247231583026569007.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="NI7587"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\NI7587\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NI7587\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\NI7587\eclipse-workspace\E2EProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\NI7587\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\NI7587\AppData\Local\Microsoft\WindowsApps;C:\Users\NI7587\AppData\Roaming\npm;C:\Users\NI7587\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyHeader" classname="framework.VerifyNavigationBarTest" time="0.069">
+    <system-out><![CDATA[chrome
+chrome
+chrome
+chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.S0t.a4r1S0tt3a.i3rnt9gi  (nCcghc bCrfohr0m1oe1mDecbDr2ridiv2bevr19 eb853r0. 60.d884143403.4.000394.8 (43c81c601bf3304.12c132c9b02c dd2-(bcr1ce9fbsbf/50b0r16a1ndcc8bh42-4dh42eb0a1d90sb/54804361d808641334@44{200c#24048c3d18-6r6e1f3})s4 2/cob2nr0a cpdno-rrecfhts- /h3b9er3aa4dns6ch/
+-4hO1en0al3dy@s/ {l4#1o40c13a6l@} {)#c 4oo1n6n}en)c t poinoo nrspto  rta2 9r413e64 
+7Oanl8ly lloo
+cwaOel ndco.lnnye
+ clPtoilcoanelsa  acsroee n ansleleocewti oenhsd t.atr
+ep Pals:el/al/socewh ersdoe.mee 
+hdtPtrpilvsee:ar/s./cechh rsrooemmeed hirtuitmvpes.:r/o/.rccgh/hsrrooemmcuierudmr.iivoterrgy./-sccohenrcsuoimrdiieutryma.-tcoiroongns/sis defceorurra itsituyogn-gcse osfntsoiiro dnsesur agogtnie sokntesiep oinfngso r Cho rosnm ueDkgrgeiveeepsr itsniaogf nesC.h ro
+nom ekDereipvienrg  sCahfroem.eD
+river safe.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 5536
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+CCCChhhhrrrroooommmeeemDDDrerriDiirvvieevrre  wwaarss  v wsesartts aa wrrsatttseea ddrs  ttsseauudrcc tccseeeudssc sscsffeuuuscllscllfeyyus..lslf
+
+yu.ll
+y.
+Jul 05, 2020 7:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 05, 2020 7:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 05, 2020 7:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 05, 2020 7:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTitle" classname="framework.VerifyTitleTest" time="0.05">
+    <failure message="expected:&lt;...&gt; but was:&lt;...123&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+	at framework.VerifyTitleTest.verifyTitle(VerifyTitleTest.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="homePageNavigation[nonrestricteduser@gmail.com, 123456](1)" classname="framework.HomePageTest" time="4.237"/>
+  <testcase name="homePageNavigation[restricteduser@gmail.com, 5678](2)" classname="framework.HomePageTest" time="5.522"/>
+  <testcase name="verifyPracticePageNavigation" classname="framework.PracticePageTest" time="10.343"/>
+  <testcase name="verifySelectBoxClick" classname="framework.PracticePageTest" time="0.412"/>
+</testsuite>
